@@ -1,0 +1,50 @@
+[
+    {
+      "id": "633526456f9ce1b7696a15a8",
+      "image": "https://media.istockphoto.com/photos/adult-male-runner-in-park-at-autumn-sunrise-picture-id1334658317?b=1&k=20&m=1334658317&s=170667a&w=0&h=DsOkJmEcYmr1nwHqEsF6xUObTSPilU29Fh-PLa1bNMc=",
+      "name": "Jogging",
+      "age": "20-25",
+      "time": "30",
+      "description": "Jogging is a form of trotting or running at a slow or leisurely pace. The main intention is to increase physical fitness with less stress on the body than from faster running but more than walking, or to maintain a steady speed for longer periods of time. Performed over long distances."
+    },
+    {
+      "id": "6335264572dbbfeb67c34e42",
+      "image": "https://static.toiimg.com/thumb/85201540.cms?width=680&height=512&imgsize=989394",
+      "name": "Cycling",
+      "age": "20-25",
+      "time": "30",
+      "description": "Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation, exercise or sport.[1] People engaged in cycling are referred to as cyclists,[2] bicyclists,[3] or bikers.[4] Apart from two-wheeled bicycles, cycling also includes the riding of unicycles, tricycles, "
+    },
+    {
+      "id": "6335264557d2753bafed0e7f",
+      "image": "https://blog.nasm.org/hubfs/benefits-of-stretching.jpg",
+      "name": "Stretching",
+      "age": "20-25",
+      "time": "30",
+      "description": "Stretching is a form of physical exercise in which a specific muscle or tendon (or muscle group) is deliberately flexed or stretched in order to improve the muscle's felt elasticity and achieve comfortable muscle tone.[1] The result is a feeling of increased muscle control, flexibility, and range of motion. "
+    },
+    {
+      "id": "63352645732e8f6d8bdfad9c",
+      "image": "https://post.healthline.com/wp-content/uploads/2020/02/man-exercising-plank-push-up-1200x628-facebook.jpg",
+      "name": "Push Up",
+      "age": "20-25",
+      "time": "30",
+      "description": "The push-up (sometimes called a press-up in British English) is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole."
+    },
+    {
+      "id": "633526455e0d776b0f8a78b9",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh16114-1542293707.png?crop=1.00xw:0.752xh;0,0.0817xh&resize=1200:*",
+      "name": "Bench Press",
+      "age": "20-25",
+      "time": "30",
+      "description": "The bench press, or chest press, is a weight training exercise in which the trainee presses a weight upwards while lying on a weight training bench. Although the bench press is a full-body exercise, the muscles primarily used are the pectoralis major, the anterior deltoids, and the triceps, among other stabilizing muscles. A barbell is generally used to hold the weight, but a pair of dumbbells can also be used."
+    },
+    {
+      "id": "63352645019647594e5fa92c",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Marine_Pull-ups.jpg/1200px-Marine_Pull-ups.jpg",
+      "name": "Pull Up",
+      "age": "20-25",
+      "time": "30",
+      "description": "A pull-up is an upper-body strength exercise. The pull-up is a closed-chain movement where the body is suspended by the hands and pulls up. As this happens, the elbows flex and the shoulders adduct and extend to bring the elbows to the torso."
+    }
+  ]
