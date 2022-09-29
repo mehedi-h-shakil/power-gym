@@ -3,6 +3,7 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Exercises from '../Exercises/Exercises';
+import Cart from '../Cart/Cart';
 
 const Home = () => {
 
@@ -26,7 +27,7 @@ const Home = () => {
                     <Exercises exercises={exercises}></Exercises>
                 </div>
                 <div className="cart-container border-solid border-2 border-indigo-300">
-                    <h1>I am from cart container</h1>
+                    <Cart></Cart>
                 </div>
             </div>
         </div>
