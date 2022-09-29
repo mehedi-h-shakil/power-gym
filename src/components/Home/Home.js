@@ -20,7 +20,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className="grid xl:grid-cols-4 sm:grid-cols-1">
+            <div className="grid xl:grid-cols-4 sm:grid-cols-1 relative">
                 <div className=" mx-auto col-span-3 mt-20">
                    <div className='mb-5'>
                         <h1 className='text-5xl text-lime-500'><FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> Power Gym

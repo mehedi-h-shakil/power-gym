@@ -41,7 +41,7 @@ const Cart = ({cart}) => {
     
 
     return (
-        <div className='px-10 py-5'>
+        <div className='px-10 py-5 sticky top-0'>
             <div className='flex'>
                 <img className='w-16 rounded-full' src={user} alt="" />
                 <div className='px-2'>
