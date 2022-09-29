@@ -4,7 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = ({cart}) => {
-    const {time} = cart;
+    
+    // console.log(cart)
+
+    const totalExerciseTime = cart.reduce((n, {time}) => n + parseInt(time), 0);
+
 
     const[breakTime, setBreakTime] = useState([]);
 
@@ -63,7 +67,7 @@ const Cart = ({cart}) => {
                 <h2 className='text-2xl font-semibold'>Exercise Details</h2>
                 <div className='mt-5 flex justify-between  bg-slate-300 rounded-lg p-5'>
                     <p className='text-lg'>Exercise time</p>
-                    <p>{time}</p>
+                    <p>{totalExerciseTime}</p>
                 </div>
                 <div className='mt-5 bg-slate-300 rounded-lg p-5 flex justify-between'>
                     <p className='text-lg '>Break time</p>

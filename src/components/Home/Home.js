@@ -10,7 +10,7 @@ const Home = () => {
     const[exercises, setExercises] = useState([]);
     const[cart, setCart] = useState([]);
     
-
+    // console.log(cart)
     useEffect(() => {
         fetch('exercise.json')
         .then(res=>res.json())

@@ -2,15 +2,23 @@ import React from 'react';
 import './SingleExercise.css'
 
 const SingleExercise = ({exercise, cart, setCart}) => {
-    const {image, name, time, description, age} = exercise;
+    const {id, image, name, time, description, age} = exercise;
 
     const handleAddToCart = () => {
         const info = {
             time,
+            id
         }
-        console.log(typeof(info))
-        setCart(info);
-    }
+        const newInfo = [info];
+        setCart(newInfo)
+        // console.log(newInfo)
+        
+        if(cart){
+            const newInfo = [...cart, info];
+            setCart(newInfo)
+        }
+        // console.log(cart)
+    };
 
     return (
         <div>
