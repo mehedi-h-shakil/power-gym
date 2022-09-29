@@ -8,7 +8,9 @@ import Cart from '../Cart/Cart';
 const Home = () => {
 
     const[exercises, setExercises] = useState([]);
-    // console.log(exercises)
+    const[cart, setCart] = useState([]);
+    
+
     useEffect(() => {
         fetch('exercise.json')
         .then(res=>res.json())
@@ -24,10 +26,10 @@ const Home = () => {
                         </h1>
                         <p className='text-2xl font-semibold mt-10'>Select today's exercise</p>
                    </div>
-                    <Exercises exercises={exercises}></Exercises>
+                    <Exercises exercises={exercises} cart={cart} setCart={setCart}></Exercises>
                 </div>
-                <div className="cart-container border-solid border-2 border-indigo-300">
-                    <Cart></Cart>
+                <div className="cart-container">
+                    <Cart cart={cart}></Cart>
                 </div>
             </div>
         </div>
