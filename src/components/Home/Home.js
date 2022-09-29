@@ -5,6 +5,7 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Exercises from '../Exercises/Exercises';
 import Cart from '../Cart/Cart';
 
+
 const Home = () => {
 
     const[exercises, setExercises] = useState([]);

@@ -2,10 +2,20 @@ import React, { useEffect, useState } from 'react';
 import user from '../../images/user.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import Swal from 'sweetalert2'
 
 const Cart = ({cart}) => {
     
     // console.log(cart)
+    const completeExercise = () => {
+        Swal.fire({
+            icon: 'success',
+            title: 'Your Exercise Has Been Completed',
+            showConfirmButton: false,
+            timer: 1500
+          })
+          
+    }
 
     const totalExerciseTime = cart.reduce((n, {time}) => n + parseInt(time), 0);
 
@@ -75,7 +85,7 @@ const Cart = ({cart}) => {
                 </div>
             </div>
             <div className='mt-10'>
-            <button className='bg-indigo-500 p-5 w-full text-white rounded-lg hover:bg-lime-600'>Activity Complete</button>
+            <button onClick={completeExercise} className='bg-indigo-500 p-5 w-full text-white rounded-lg hover:bg-lime-600'>Activity Complete</button>
             </div>
         </div>
     );
