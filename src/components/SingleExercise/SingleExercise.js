@@ -6,8 +6,9 @@ const SingleExercise = ({exercise, cart, setCart}) => {
 
     const handleAddToCart = () => {
         const info = {
-            time
+            time,
         }
+        console.log(typeof(info))
         setCart(info);
     }
 

@@ -1,25 +1,30 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import user from '../../images/user.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = ({cart}) => {
     const {time} = cart;
-    // const[exerciseTime, setExerciseTime] = useState([]);
-
-    // const totalExerciseTime = (time) => {
-    //     const stringTime = parseInt(time);
-    //     let totalTime = 0;
-    //     totalTime = totalTime + stringTime;
-    //     console.log(totalTime)
-    // }
 
     const[breakTime, setBreakTime] = useState([]);
 
-    const handleAddToBreak = (breakTime) => {
+    useEffect(() => {
+        const previousBreakTime = localStorage.getItem("breaktime");
+        const oldBreakTime = JSON.parse(previousBreakTime);
+        if(oldBreakTime){
+            setBreakTime(oldBreakTime)
+            // console.log(oldBreakTime)
+        }
+    },[])
+    
 
+    const handleAddToBreak = (breakTime) => {
+        localStorage.setItem("breaktime", JSON.stringify(breakTime))
         setBreakTime(breakTime)
     }
+    
+
+    
 
     return (
         <div className='px-10 py-5'>
