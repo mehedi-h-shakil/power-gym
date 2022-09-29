@@ -27,6 +27,28 @@ const Cart = () => {
                 <p className='text-sm'>Age</p>
                 </div>
             </div>
+            <div className='mt-5'>
+                <h2 className='text-2xl font-semibold'>Add A Break</h2>
+                <div className='flex mt-5 justify-between bg-slate-300 p-5 rounded-lg '>
+                    <button className='px-4 py-3 bg-white hover:bg-indigo-500 hover:text-white rounded-full'>10</button>
+                    <button className='px-4 py-3 bg-white hover:bg-indigo-500 hover:text-white rounded-full'>20</button>
+                    <button className='px-4 py-3 bg-white hover:bg-indigo-500 hover:text-white rounded-full'>30</button>
+                    <button className='px-4 py-3 bg-white hover:bg-indigo-500 hover:text-white rounded-full'>40</button>
+                    <button className='px-4 py-3 bg-white hover:bg-indigo-500 hover:text-white rounded-full'>50</button>
+                </div>
+            </div>
+            <div className='mt-5'>
+                <h2 className='text-2xl font-semibold'>Exercise Details</h2>
+                <div className='mt-5'>
+                    <p className='text-lg bg-slate-300 rounded-lg p-5'>Exercise time <span></span></p>
+                </div>
+                <div className='mt-5'>
+                    <p className='text-lg bg-slate-300 rounded-lg p-5'>Break time</p><span></span>
+                </div>
+            </div>
+            <div className='mt-10'>
+            <button className='bg-indigo-500 p-5 w-full text-white rounded-lg hover:bg-lime-600'>Activity Complete</button>
+            </div>
         </div>
     );
 };

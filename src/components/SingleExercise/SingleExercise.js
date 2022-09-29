@@ -12,7 +12,7 @@ const SingleExercise = ({exercise}) => {
                 <p>{description.slice(0,50)}...</p>
                 <p className='font-semibold py-2'>For Age: {age}</p>
                 <p className='font-semibold py-1'>Time required: {time}s</p>
-                <button className='bg-blue-600 text-white w-full p-2 rounded-sm'>Add to list</button>
+                <button className='bg-blue-600 text-white w-full p-2 rounded-sm hover:bg-lime-600'>Add to list</button>
                </div>
             </div>
         </div>
